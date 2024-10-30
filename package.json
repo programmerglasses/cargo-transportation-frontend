@@ -5,6 +5,7 @@
   "scripts": {
     "start:cargo-transportation-web": "nx serve cargo-transportation-web",
     "build:cargo-transportation-web": "nx build cargo-transportation-web",
+    "build:domain": "nx run domain:build-package",
     "build:ui-kit": "nx run ui-kit:build-package",
     "semantic-release": "semantic-release"
   },
